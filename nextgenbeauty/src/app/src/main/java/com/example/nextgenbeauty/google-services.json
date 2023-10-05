@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "960894339331",
+    "project_id": "nextgen-2a6e0",
+    "storage_bucket": "nextgen-2a6e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:960894339331:android:3a853300595be0fdc54136",
+        "android_client_info": {
+          "package_name": "com.example.nextgenbeauty.UI"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "960894339331-frl9ln3on10a4bkdr6q115kdqfe026cj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiXfFTKifz8vBlHnkgGFa6gkZR7OptFIQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "960894339331-frl9ln3on10a4bkdr6q115kdqfe026cj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

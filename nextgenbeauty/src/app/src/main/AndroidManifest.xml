@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nextgenbeauty">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <application
+        android:name="com.example.nextgenbeauty.UI.OfflineCapability"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.example.nextgenbeauty.UI.ScanQRCodeActivity"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.example.nextgenbeauty.UI.OrderActivity"/>
+        <activity
+            android:name="com.example.nextgenbeauty.UI.CartCheckActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.nextgenbeauty.UI.OrderActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.nextgenbeauty.UI.CartActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.nextgenbeauty.UI.EditSalesMan"
+            android:parentActivityName="com.example.nextgenbeauty.UI.AdminActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.nextgenbeauty.UI.EditProduct"
+            android:parentActivityName="com.example.nextgenbeauty.UI.AdminActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.nextgenbeauty.UI.EditOffer"
+            android:parentActivityName="com.example.nextgenbeauty.UI.AdminActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.nextgenbeauty.UI.favourites_activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.nextgenbeauty.UI.ProductInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.nextgenbeauty.UI.CategoryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.nextgenbeauty.UI.AddSalesMan"
+            android:parentActivityName="com.example.nextgenbeauty.UI.AdminActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.nextgenbeauty.UI.AddOffer"
+            android:parentActivityName="com.example.nextgenbeauty.UI.AdminActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.nextgenbeauty.UI.AddProduct"
+            android:parentActivityName="com.example.nextgenbeauty.UI.AdminActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.nextgenbeauty.UI.UserProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.nextgenbeauty.UI.ForgetPassword"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.nextgenbeauty.UI.RegisterActivity"
+            android:theme="@style/AppTheme.FullScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.nextgenbeauty.UI.loginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.nextgenbeauty.UI.AdminActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.nextgenbeauty.UI.SplashScreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.nextgenbeauty.UI.MainActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <meta-data android:name="com.google.android.gms.vision.DEPENDENCIES" android:value="barcode"/>
+
+    </application>
+
+</manifest>
